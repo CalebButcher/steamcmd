@@ -47,4 +47,4 @@ $ docker run -it impunitus/steamcmd bash
 
 ## Contributions 
 
-Always welcome others to contribute to this with the understand that the sole purpose of this image is a base that runs steamcmd, nothing else. 
+Always welcome others to contribute to this with the understanding that the sole purpose of this image is a base that runs steamcmd, nothing else. 
