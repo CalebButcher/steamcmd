@@ -1,4 +1,4 @@
-![GitHub Workflow Status](https://img.shields.io/github/workflow/status/impunitus/steamcmd/dockerhubci)![Docker Pulls](https://img.shields.io/docker/pulls/impunitus/steamcmd)![GitHub](https://img.shields.io/github/license/impunitus/steamcmd)
+![GitHub Workflow Status](https://img.shields.io/github/workflow/status/calebbutcher/steamcmd/dockerhubci)![Docker Pulls](https://img.shields.io/docker/pulls/impunitus/steamcmd)![GitHub](https://img.shields.io/github/license/calebbutcher/steamcmd)
 # steamcmd
 ```
 Ubuntu Focal with steamcmd pre-installed for hosting game servers
@@ -20,7 +20,7 @@ This image is meant to be used as a base for game servers requiring steamcmd. Th
 ### Using as a base
 To use this image as a base, use the below
 ```Dockerfile
-FROM impunitus/steamcmd:latest
+FROM calebbutcher/steamcmd:latest
 ```
 ### Root/User Caveat
 
@@ -42,7 +42,7 @@ As mentioned previously, this container is not of much use on its own, and is me
 
 If you still wish to run it on its own:
 ```bash
-$ docker run -it impunitus/steamcmd bash
+$ docker run -it calebbutcher/steamcmd bash
 ```
 
 ## Contributions 
