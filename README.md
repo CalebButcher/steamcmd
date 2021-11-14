@@ -20,7 +20,7 @@ This image is meant to be used as a base for game servers requiring steamcmd. Th
 ### Using as a base
 To use this image as a base, use the below
 ```Dockerfile
-FROM calebbutcher/steamcmd:latest
+FROM impunitus/steamcmd:latest
 ```
 ### Root/User Caveat
 
@@ -42,7 +42,7 @@ As mentioned previously, this container is not of much use on its own, and is me
 
 If you still wish to run it on its own:
 ```bash
-$ docker run -it calebbutcher/steamcmd bash
+$ docker run -it impunitus/steamcmd bash
 ```
 
 ## Contributions 
